@@ -5,7 +5,7 @@
     var firstName = form.elements["fname"].value;
     var lastName = form.elements["lname"].value;
  
-    var fullName = firstName + "\n" + lastName;
+    var fullName = firstName + " " + lastName;
 
     alert(fullName);
 }
